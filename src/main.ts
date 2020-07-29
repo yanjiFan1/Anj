@@ -1,11 +1,11 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import './index.css'
-import { createMemoryHistory, createRouter } from 'vue-router'
+import { createMemoryHistory, createRouter, createWebHashHistory } from 'vue-router'
 import Frank from './components/Frank.vue'
 import Frank2 from './components/Frank2.vue'
 
-const history = createMemoryHistory()
+const history = createWebHashHistory()
 const router = createRouter({
   history: history,
   routes: [
