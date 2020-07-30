@@ -32,19 +32,22 @@ export default {
 <style lang="scss" scoped>
  .content {
    aside {
-     position: fixed;
-     top: 0;
-     left: 0;
-     padding: 16px;
-     padding-top: 96px;
+     width: 150px;
      background: lightblue;
      color: black;
+     padding: 16px;
      ol {
        li { 
          text-align: left;
          color: black;
        }
      }
+     @media (max-width: 500px) {
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding-top: 70px;
+    }
    }
  } 
 </style>
