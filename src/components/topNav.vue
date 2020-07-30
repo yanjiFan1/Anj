@@ -2,7 +2,7 @@
   <div class="topnav">
     <div class="logo">LOGO</div>
     <div class="menu">
-      <ul><li>菜单1</li><li>菜单2</li></ul>
+      <ul><li><router-link to="/">Home</router-link></li><li><router-link to="/doc">Doc</router-link></li></ul>
     </div>
   </div>
 </template>
